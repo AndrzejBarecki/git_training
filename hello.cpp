@@ -5,10 +5,10 @@ int main()
 {
     std::cout << "Hello, World!";
     std::cout << "Hello, Kitty!";
-    int i;
-    if ( i < 5)
+    for (int i = 0; i < 10; i++)
     {
-    	std: count << 1;
+    	std::count <<  i;
     }
+
     return 0;
 }
