@@ -1,0 +1,294 @@
+    1  git status
+    2  ls
+    3  ls
+    4  cd Source
+    5  ls
+    6  cd ..
+    7  cd ..
+    8  ls
+    9  cd Source/
+   10  md python
+   11  mkdir python
+   12  cd python/
+   13  git clone https://github.com/jedzej/tietopythontraining-basic.git
+   14  ls
+   15  ls
+   16  cd github_fork_clone/
+   17  git clone https://github.com/jedzej/tietopythontraining-basic.git
+   18  ls
+   19  cd ..
+   20  cd ..
+   21  ls
+   22  cd Source/
+   23  ls
+   24  cd python/
+   25  ls
+   26  cd myFork/
+   27  ls
+   28  cd tietopythontraining-basic/
+   29  ls
+   30  ls
+   31  bit branch
+   32  git status
+   33  git branch
+   34  git checkout master 
+   35  git fetch upstream 
+   36  git branch
+   37  git merge upstream/master 
+   38  git push origin master 
+   39  git branch
+   40  git checkout -b jedzej/lesson_06_dicts_tuples_sets_args_kwargs
+   41  ls
+   42  cd students/
+   43  ls
+   44  cd barecki_andrzej/
+   45  LS
+   46  ls
+   47  mkdir lesson_06_dicts_tuples_sets_args_kwargs
+   48  ls
+   49  cd lesson_06_dicts_tuples_sets_args_kwargs/
+   50  git status
+   51  ls
+   52  git add inventory.py 
+   53  git status
+   54  gitk
+   55  git add add_to_inventory.py 
+   56  git status
+   57  add uppercase.py 
+   58  git add uppercase.py 
+   59  git status
+   60  git add reverse_the_sequence.py 
+   61  git status
+   62  ls
+   63  cd ..
+   64  cd ..
+   65  cd Source/
+   66  ls
+   67  cd python/
+   68  ls
+   69  cd myFork/
+   70  ls
+   71  cd tietopythontraining-basic/
+   72  gitk
+   73  git add -p
+   74  gitk
+   75  git add -p
+   76  gitk
+   77  git fetch
+   78  git rebase origin/master 
+   79  gitk
+   80  git commit -m "lesson_08"
+   81  gitk
+   82  git fetch
+   83  git rebase origin/master 
+   84  gitk
+   85  git add -p
+   86  git add students/barecki_andrzej/lesson_08_regular_expressions/strong_password_detection.py 
+   87  gitk
+   88  git commit --amend 
+   89  gitk
+   90  git add students/barecki_andrzej/lesson_08_regular_expressions/email_validator.py 
+   91  git commit --amend 
+   92  git add -p
+   93  git commit --amend 
+   94  gitk
+   95  gitk
+   96  git status
+   97  gitk
+   98  git add students/barecki_andrzej/lesson_08_regular_expressions/postal_code_validator.py 
+   99  git commit --amend 
+  100  gitk
+  101  gitk
+  102  git status
+  103  git add students/barecki_andrzej/lesson_08_regular_expressions/phone_number_validator.py 
+  104  gitk
+  105  git add -p
+  106  git commit --amend 
+  107  gitk
+  108  gitk
+  109  git push origin jedzej/lesson_08_regular_expression 
+  110  gitk
+  111  git add -p
+  112  git commit --amend 
+  113  gitk
+  114  gitk
+  115  git push origin jedzej/lesson_08_regular_expression 
+  116  gitk
+  117  git fetch
+  118  git rebase
+  119  git branch --set-upstream-to=origin/jedzej/lesson_08_regular_expression 
+  120  git rebase
+  121  gitk
+  122  git rebase --abort
+  123  gitk
+  124  gitk
+  125  git fetch
+  126  git rebase
+  127  git mergetool
+  128  gitk
+  129  git mergetool
+  130  gitk
+  131  gitk
+  132  git commit
+  133  gitk
+  134  git rebase --continue 
+  135  git mergetool
+  136  gitk
+  137  git status
+  138  git rebase --continue 
+  139  gitk
+  140  git stash
+  141  gitk
+  142  git status
+  143  git rebase --continue 
+  144  git rebase --skip
+  145  gitk
+  146  git fetch
+  147  git rebase
+  148  gitk
+  149  git fetch
+  150  git rebase
+  151  git rebase -i
+  152  git push origin jedzej/lesson_08_regular_expression 
+  153  gitk
+  154  git status
+  155  gitk
+  156  gitk
+  157  git status
+  158  git git stash
+  159  git stash
+  160  git status
+  161  git checkout master
+  162  git fetch upstream 
+  163  git merge upstream/master
+  164  gitk
+  165  git push origin master
+  166  git checkout -b jedzej/lesson_09_reading_and_writing_files
+  167  git status
+  168  ls
+  169  cd students/
+  170  ls
+  171  cd barecki_andrzej/
+  172  ls
+  173  cd lesson_09
+  174  cd lesson_09_reading_and_writing_files/
+  175  ls
+  176  python mcb.pyt save kupa
+  177  py.exe mcb.pyw save kupa
+  178  ls
+  179  py.exe mcb.pyw save kupa
+  180  py.exe mcb.pyw list
+  181  py.exe mcb.pyw delete kot
+  182  py.exe mcb.pyw delete kupa
+  183  py.exe mcb.pyw save oko
+  184  py.exe mcb.pyw list
+  185  py.exe mcb.pyw delete oko
+  186  py.exe mcb.pyw delete psdfs
+  187  py.exe mcb.pyw save onet
+  188  py.exe mcb.pyw list
+  189  py.exe mcb.pyw delete
+  190  py.exe mcb.pyw list
+  191  git add -p
+  192  git add mcb.pyw 
+  193  gitk
+  194  git commit
+  195  gitk
+  196  git add user_input_text_file.txt 
+  197  git add mad_libs.py
+  198  git status
+  199  gitk
+  200  gitk
+  201  git status
+  202  ls
+  203  ls
+  204  cd ..
+  205  cd ..
+  206  cd Cpp/
+  207  mkdir training
+  208  cd training/
+  209  git init
+  210  touch hello.cpp
+  211  gedit hello.cpp 
+  212  git add hello.cpp 
+  213  git status
+  214  git commit
+  215  git status
+  216  gitk
+  217  ls
+  218  gitk
+  219  nano
+  220  git commit --amend
+  221  vim
+  222  export EDITOR=vim
+  223  git commit --amend
+  224  export EDITOR=vim
+  225  git commit --amend
+  226  git log
+  227  vim hello.cpp
+  228  la
+  229  ls
+  230  vim hello.cpp 
+  231  git add hello.cpp 
+  232  git commit --amend 
+  233  vim hello.cpp 
+  234  gitk
+  235  git add hello.cpp 
+  236  git commit -m "hello kitty"
+  237  gitk
+  238  gitk
+  239  vim hello.cpp 
+  240  gitk
+  241  git add hello.cpp 
+  242  gitk
+  243  git commit --amend 
+  244  gitk
+  245  git log --follow hello.cpp
+  246  git show
+  247  vim hello.cpp 
+  248  git status
+  249  git diff --cached 
+  250  git diff --cached 
+  251  git reset HEAD
+  252* git statu
+  253  gitk
+  254  git reset HEAD hello.cpp
+  255  gitk
+  256  git checkout -- hello.cpp
+  257  cat hello.cpp 
+  258  history
+  259  vim ~/.vimrc
+  260  git checkout -b second
+  261  git checkout master 
+  262  git branch
+  263  vim hello.cpp 
+  264  vim hello.cpp 
+  265  git add hello.cpp 
+  266  git commit -m "loop added"
+  267  git log
+  268  git checkout second 
+  269  vim hello.cpp 
+  270  git status
+  271  git add hello.cpp 
+  272  git commit -m "if added"
+  273  git show
+  274  git log
+  275  git branch
+  276  git merge master 
+  277  git mergetool
+  278  vim hello.cpp 
+  279  git mergetool
+  280  git status
+  281  git merge --abort 
+  282  git merge master
+  283  vim hello.cpp
+  284  git status
+  285  git merge --continue 
+  286  vim hello.cpp
+  287  git add hello.cpp
+  288  git commit -m "merge"
+  289  git log --graph 
+  290  gitk
+  291  gitk &
+  292  find ~ -name hello
+  293  grep -ri hello
+  294  history > historia
